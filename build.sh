@@ -17,5 +17,4 @@ cd fiptool
   --opensbi ../opensbi/build/platform/generic/firmware/fw_dynamic.bin \
   --uboot ../u-boot/u-boot.bin \
   --rtos data/cvirtos.bin
-cp fip.bin ..
 cd ..
