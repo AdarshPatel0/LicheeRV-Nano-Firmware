@@ -1,0 +1,9 @@
+[submodule "u-boot"]
+	path = u-boot
+	url = https://github.com/u-boot/u-boot
+[submodule "opensbi"]
+	path = opensbi
+	url = https://github.com/riscv-software-src/opensbi
+[submodule "fiptool"]
+	path = fiptool
+	url = https://github.com/sophgo/fiptool
