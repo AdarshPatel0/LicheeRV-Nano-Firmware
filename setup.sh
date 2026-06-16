@@ -1,4 +1,25 @@
 sudo apt update
 sudo apt upgrade -y
-sudo apt install -y cpio xxd build-essential cmake git pkg-config rsync unzip wget zip gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu bc bison flex liblzma-dev libncurses-dev libssl-dev device-tree-compiler ninja-build tcl dosfstools file mtools fuse2fs shellcheck python-is-python3 gcc-riscv64-unknown-elf libgnutls28-dev file binwalk u-boot-tools
+sudo apt install -y \
+    build-essential \
+    crossbuild-essential-riscv64 \
+    git \
+    make \
+    gcc-riscv64-linux-gnu \
+    binutils-riscv64-linux-gnu \
+    bc \
+    bison \
+    flex \
+    libssl-dev \
+    device-tree-compiler \
+    python3 \
+    python3-dev \
+    python3-setuptools \
+    python3-pip \
+    swig \
+    pkg-config \
+    rsync \
+    cpio \
+    curl \
+    wget
 git submodule update --init --recursive
