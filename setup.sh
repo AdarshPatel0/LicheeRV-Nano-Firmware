@@ -7,6 +7,7 @@ sudo apt install -y \
     make \
     gcc-riscv64-linux-gnu \
     binutils-riscv64-linux-gnu \
+    libgnutls28-dev \
     bc \
     bison \
     flex \
