@@ -17,6 +17,7 @@ sudo apt install -y \
     python3-dev \
     python3-setuptools \
     python3-pip \
+    python-is-python3 \
     swig \
     pkg-config \
     rsync \
