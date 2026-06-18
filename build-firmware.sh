@@ -1,15 +1,14 @@
 export ARCH=riscv
 export CROSS_COMPILE=riscv64-linux-gnu-
-
 cd u-boot
+make distclean
 make sipeed_licheerv_nano_defconfig
 make -j$(nproc)
 cd ..
-
 cd opensbi
+make distclean
 make PLATFORM=generic FW_FDT_PATH=../u-boot/u-boot.dtb -j$(nproc)
 cd ..
-
 cd fiptool
 ./fiptool \
   --fsbl data/fsbl/cv181x.bin \
