@@ -24,4 +24,4 @@ sudo apt install -y \
     cpio \
     curl \
     wget
-git submodule update --init --recursive
+git submodule update --init --recursive --remote
