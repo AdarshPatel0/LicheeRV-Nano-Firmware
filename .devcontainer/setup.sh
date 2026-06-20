@@ -1,9 +1,13 @@
 sudo apt update
 sudo apt upgrade -y
 sudo apt install -y \
-    riscv64-linux-gnu-gcc \
+    gcc-riscv64-linux-gnu \
     device-tree-compiler \
     python3 \
     python-is-python3 \
-    git \
+    libgnutls28-dev \
+    bison \
+    flex \
+    git
+
 git submodule update --init --recursive --remote --rebase
