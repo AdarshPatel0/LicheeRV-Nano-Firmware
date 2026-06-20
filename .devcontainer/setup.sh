@@ -8,6 +8,8 @@ sudo apt install -y \
     libgnutls28-dev \
     bison \
     flex \
+    parted \
+    mtools \
     git
 
 git submodule update --init --recursive --remote --rebase
