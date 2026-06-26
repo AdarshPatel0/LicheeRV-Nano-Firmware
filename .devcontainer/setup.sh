@@ -8,6 +8,7 @@ sudo apt install -y \
     libgnutls28-dev \
     bison \
     flex \
+    libncurses-dev \
     parted \
     mtools \
     git
