@@ -1,7 +1,11 @@
 export CROSS_COMPILE=riscv64-linux-gnu-
+
+set -e
+
 cd u-boot
 make distclean
 make sipeed_licheerv_nano_defconfig
+make menuconfig
 make -j$(nproc)
 cd ..
 cd opensbi
